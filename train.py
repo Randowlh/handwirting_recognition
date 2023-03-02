@@ -7,9 +7,7 @@ from torchvision import transforms
 from torchvision import datasets
 import torch.nn.functional as F
 
-"""
-卷积运算 使用mnist数据集，和10-4，11类似的，只是这里：1.输出训练轮的acc 2.模型上使用torch.nn.Sequential
-"""
+
 # Super parameter ------------------------------------------------------------------------------------
 batch_size = 64
 learning_rate = 0.01
